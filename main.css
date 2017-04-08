@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  display: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: white;
+  display: inline-block;
+  border: solid grey 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.first {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20 px;
+  color: black;
+  text-align: justify;
+  display: inline-block;
+
+}
+
+.second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16 px;
+  color: dimgrey;
+  border: 1px;
+  text-align: justify;
+  display: inline-block;
+}
+
+.third {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16 px;
+  color: dimgrey;
+  border: 1px;
+  text-align: justify;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+ third {
+ background-color: lightgrey;
+ float: right;
+ }
+
+@media only screen and (max-width: 768px) {
+ /* For mobile phones: */
+ [class="col-"] {
+ width: 50%;
+ }
+}
+
+
+
+
+
