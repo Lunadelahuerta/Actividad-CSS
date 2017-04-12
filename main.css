@@ -3,65 +3,109 @@ html {
   width: 100%;
 }
 
+body {
+font-size: 16px;
+}
+
 img {
   display: center;
   max-width: 100%;
   height: auto;
-}
-
-.box {
-  width: 150px;
-  height: 150px;
-  background: white;
-  display: inline-block;
-  border: solid grey 2px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  color: grey;
   text-align: center;
+  display: center;
+  float: center;
 }
 
 .first {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20 px;
+  font-family: "roboto", sans-serif;
+  font-size: 40 px;
   color: black;
-  text-align: justify;
-  display: inline-block;
+  text-align: center;
+  display: center;
+  float: center;
+  }
 
+.sub {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7em;
+  color: black;
+  text-align: center;
+  display: center;
+  float: center;
+  }
+
+.titulos {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.parrafos {
+  font-family: "Open Sans", sans-serif;
+  color: dimgray;
 }
 
 .second {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16 px;
   color: dimgrey;
   border: 1px;
-  text-align: justify;
+  text-align: center;
   display: inline-block;
 }
 
 .third {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16 px;
   color: dimgrey;
   border: 1px;
-  text-align: justify;
+  text-align: center;
   display: inline-block;
 }
 
-@media only screen and (max-width: 768px) {
- third {
- background-color: lightgrey;
- float: right;
- }
-
-@media only screen and (max-width: 768px) {
- /* For mobile phones: */
- [class="col-"] {
- width: 50%;
- }
+.rrss {
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
 }
 
+.footer {
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10 px;
+  color: white;
+  text-align: center;
+}
 
+@media only screen and (min-width: 768px) {
+    .second {
+      float: left;
+    }
+    .third {
+      float: right;
+    }
+}
 
+@media only screen and (min-width: 768px) {
+  .bloque {
+    background-color: dimgrey;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    display: none;
+  }
 
+.sidebar {
+  width: 170px;
+  height: 745px;
+  background: white;
+  display: inline-block;
+  border: solid grey 2px;
+  color: grey;
+  text-align: right;
+}
 
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    float: right;
+    display: none;
+    max-width: 30%;
+    height: auto;
+  }
+}
